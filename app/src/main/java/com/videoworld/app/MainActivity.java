@@ -25,6 +25,7 @@ public class MainActivity extends ActionBarActivity {
         }
         // Bonjour
         // Comment ca va ?
+        // Alerte
     }
 
 
