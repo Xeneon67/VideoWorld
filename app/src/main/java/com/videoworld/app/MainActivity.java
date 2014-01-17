@@ -23,7 +23,7 @@ public class MainActivity extends ActionBarActivity {
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
         }
-        // COUCOU PETIT CON
+        // COUCOU PETIT CON CA MARCHE
     }
 
 
