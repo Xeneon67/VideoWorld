@@ -24,6 +24,7 @@ public class MainActivity extends ActionBarActivity {
                     .commit();
         }
         // Bonjour
+        // Comment ca va ?
     }
 
 
