@@ -1,5 +1,7 @@
 package com.videoworld.app;
 
+import android.net.Uri;
+import android.os.Environment;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -34,7 +36,10 @@ public class VideoPlayerActivity extends ActionBarActivity {
         video.setMediaController(control);
 
         // Chemin de la video
-
+        String url  = "/storage/sdcard/spacetestSMALL_512kb.mp4";
+        Uri path = Uri.parse(url);
+        video.setVideoURI(path);
+        video.start();
     }
 
 
